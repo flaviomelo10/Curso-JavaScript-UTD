@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,form, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <!--get: leva as informações na url como parâmetro
+            post: leva a informação no corpo da mensagem-->
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome_id">Nome:</label><br> <!--user experience-->
+            <input type="text" placeholder='digite seu nome' name="" id="nome_id"><br>
+            <label for="endereco_id">Endereço:</label><br>
+            <input type="text" placeholder='digite seu endereço' name="" id="endereco_id"><br>
+            <!--outra forma de escrever (sem o for, mas com o input dentro da label)
+            <label>Endereço:
+                <input type="text" placeholder='digite seu endereço' name="" id="endereco_id">
+            </label><br>
+            -->
+            <label>
+                Idade: <br>
+                <input type="number" name="" id="">
+            </label> <br>
+            <label>
+                Email: <br>
+                <input type="email" name="" id="">
+            </label><br>
+            <label>
+                Senha: <br>
+                <input type="password" name="" id="">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            Ocupação:<br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Frontend
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Backend
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Fullstack
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                Infra
+            </label><br>
+            <label>
+                <input type="radio" name="ocupacao" id="">
+                DevOps
+            </label><br> <!--name="ocupação" é o mesmo para todos, pois passa a ser interpretado como um grupo de radiobuttons. Dessa forma, apenas pode ser selecionado no grupo-->
+            <label>Turno
+                <select name="Turno" id="">
+                    <option value="#" selected disabled>Selecione</option>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </label>
+            </fieldset>
+        <br>
+        <input type="submit" value="ENVIAR">
+        <!--todo formulário tem que ter um elemento que vai disparar
+            o action do formulário (pode ser um button ou um input do tipo submit)-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+table{
+    margin: 0 auto;
+}
+td{
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#text{
+    text-align: center;
+}

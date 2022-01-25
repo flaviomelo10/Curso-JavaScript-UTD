@@ -1,0 +1,62 @@
+table{
+    margin: 0 auto;
+}
+
+fieldset{
+    margin: 0 340px 0 340px;   
+}
+
+td, th{
+    width: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+tr{    
+    height: 20px;
+}
+
+input{
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+#th2{
+    border: none;
+}
+
+#disciplina{
+    text-align: right;
+}
+
+#cpp{
+    text-align: center;
+    width: 110px;
+}
+
+#inputc{
+    margin: 0 125px 0 0;
+}
+
+#inputa{
+    margin: 0 87px 0 0;
+}
+
+#inputf{
+    margin: 0 131px 0 0;
+}
+
+#inputm{
+    margin: 0 35px 0 0;
+}
+
+#botao{
+    background-color: dodgerblue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    position: relative;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estiloquestao13.css>"
+    <title>Questão 13</title>
+</head>
+<body>
+    <center><h1>Formulário de Pré-Matrícula</h1></center>
+    <hr>
+    <fieldset>
+        <table border="1">
+            <tbody>
+            <tr>
+                <td colspan="2"><strong>Dados pessoais:</strong></td>
+                
+            </tr>
+                <tr>
+                    <td align="right" width="200px">
+                        <label for="nome_id">Nome do aluno:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="" id="nome_id" required >
+                    </td>
+                <tr>
+                    <td align="right">
+                        <label for="data">Nascimento(dd/mm/aaaa):</label>
+                    </td>
+                    <td>
+                        <input id="data" type="text" size="2" maxlength="2" requiered>/
+                        <input id="data" type="text" size="2" maxlength="2" requiered>/
+                        <input id="data" type="text" size="4" maxlength="4" requiered>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="nome_mae">Nome da Mãe:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="" id="nome_mae" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="nome_pai">Nome do Pai:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="" id="nome_pai" required>
+                    </td>
+                </tr> 
+                <tr>   
+                    <td align="right">
+                        Telefone:
+                    </td>
+                    <td>
+                        <label for="ddd">DDD</label>(<input id="ddd" type="text" size="2" maxlength="2" required>)
+                        <label for="tel">Tel:</label><input id="tel" type="text" size="8" maxlength="8" required>
+                        <label for="ramal">Ramal:</label><input id="ramal" type="text" size="2" maxlength="2" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="" name="" id="email" required>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <br>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td colspan="3"><strong>Informações de Matrícula:</strong></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Série:<br>
+                            <select name="serie" id="">
+                            <option value="pré-escolar">pré-escolar</option>
+                            <option value="fundamental">ensino fundamental</option>
+                            <option value="médio">ensino médio</option>
+                            </select>
+                        </td>
+                        <td>Turno:<br>
+                            <label><input type="radio" name="tunno" value="manha">Manhã</label><br>
+                            <label><input type="radio" name="tunno" value="tarde">Tarde</label>
+                        </td>
+                        <td id="tam">Atividades Extracurriculares:<br>
+                            <label><input type="checkbox" >Infomática</label><br>
+                            <label><input type="checkbox" >Música</label><br>
+                            <label><input type="checkbox" >Balet</label><br>
+                            <label><input type="checkbox" >Pintura</label><br>
+                            <label><input type="checkbox" >Judô</label><br>
+                            <label><input type="checkbox" >Pintura</label><br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <input type="submit" value="Enviar Formulário">
+            <input type="reset" value="Limpa Campos">
+    </fieldset>
+</body>
+</html>

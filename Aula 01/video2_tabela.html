@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <!--tabelas de antigamente-->
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    
+    <!--tabelas atuais-->
+    <table border='1'>
+        <thead> <!--cabeçalho-->
+            <tr>
+                <th rowspan="2">Cabeçalho</th><th colspan="3">Relação de alunos</th> <!--th: tablehead título. O conteúdo dessa tag vem sempre em negrito e centralizado-->
+                <!--rolspan é para linha: é de cima para baixo-->
+            </tr>
+            <tr>
+                <th>Nome</th><th>Idade</th><th>Curso</th>
+            </tr>
+        </thead>
+        
+        <tbody> <!--corpo da tabela-->
+            <tr>
+                <td rowspan="3">Alunos</td><td>Joana Melo</td> <td>23</td> <td>JavaScript</td> <!--td: table data-->
+            </tr>
+            <tr>
+                <td>Aron Sven</td> <td>28</td> <td>Java</td>
+            </tr>
+            <tr>
+                <td>Bethan Llwellyn</td> <td>34</td> <td>Python</td>
+            </tr>
+        </tbody>
+        
+        <tfoot> <!--rodapé da tabela-->
+            <tr>
+                <th>Rodapé</th><th colspan="3">todos os direitos reservados &copy;</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

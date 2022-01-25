@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+}
+.blue{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 20vw;
+    margin: 10px;
+}
+.red{
+    background-color: red;
+    height: 30vh;
+    width: 20vw;
+    margin: 10px;
+}
+.green{
+    background-color: green;
+    height: 30vh;
+    width: 20vw;
+    margin: 10px;
+}

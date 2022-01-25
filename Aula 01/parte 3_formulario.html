@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <header>
+            
+        </header>
+        <nav>
+            
+        </nav>
+        <main>
+            <form action=""> <!-- a action, qunando aperta o submit, redireciona o formulário para alguma outra página web-->
+                <fieldset> <!--tag fieldset: serve para separar no caso do formulário tiver mias de uma área-->
+                    <legend>Cadastro de usuário</legend> <!--tag legend: legenda do formulário no fieldset-->
+                    <!--label é o título do nosso campo-->
+                    <label for="nome_form">Nome: </label><br/> <!-- for: liga o input ao label. Ao clicar no label ele vai para o input-->
+                    <input id="nome_form" type="text" required> <!--required: submeter o formulário somente se o campo estiver preenchido
+                    readonly: não deixa modificar o campo-->
+                    <br/>
+                    <label for="idade_form">Idade: </label><br/>
+                    <input id="idade_form" type="number" required>
+
+                    <p>Linguagem de programação preferida</p>
+                    <!--radio: bolinha para selecionar um item.
+                        name: igualar os nomes permite que o browser só selecione apenas um. No caso, colocar linguagem em todos.
+                        value: o valor será levado ao destino-->
+                    <label><input type="radio" name="linguagem" value="JavaScript">JavaScript</label>
+                    <label><input type="radio" name="linguagem" value="Python">Python</label>
+                    <label><input type="radio" name="linguagem" value="PHP">PHP</label>
+                    <label><input type="radio" name="linguagem" value="Ruby">Ruby</label>
+                    
+                    <p>Área de interesse</p>
+                    <label><input type="checkbox" >Frontend</label>
+                    <label><input type="checkbox" >Backend</label>
+                    <label><input type="checkbox" >Banco de dados</label>
+                    <label><input type="checkbox" >UX design</label>
+                    <br/>
+                    <input type="submit" value="Enviar">
+            </fieldset>
+            </form>
+            
+        </main>
+        <footer>
+           
+        </footer>
+    </body>
+</html>
