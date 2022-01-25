@@ -1,5 +1,5 @@
 # Curso-JavaScript-UTD
- Atividades do curso básico de interfaces web com JavaScript
+ Atividades do curso básico de interfaces web com JavaScript ofertado pela Universidade do Trabalho Digital (UTD).
  
  **Aula 1 - Básico de HTML e HTML5**
  - HTML: tags e semântica
