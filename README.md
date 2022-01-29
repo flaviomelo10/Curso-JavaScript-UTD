@@ -33,6 +33,9 @@
  - Herança
  
  **Aula 7 - Arrays**
+ - Métodos importantes
+ - forEach
+ - Map, Filter, Reduce
  
  **Aula 8 - Node**
  
